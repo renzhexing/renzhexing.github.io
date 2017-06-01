@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画板</title>
+    <link rel="stylesheet" href="css/palette.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <script src="js/palette.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="box">
+        <img src="" alt="">
+        <div class="top">
+            <div class="left">
+                <label class="xinJian iconfont icon-iconfontxinjian"><br>新建</label>
+                <label class="Save iconfont icon-save"></label>
+                <hr>
+                <label class="ceXiao iconfont icon-chexiao"></label>
+            </div>
+            <div class="Right">
+                <label class="clear iconfont icon-chexiao"><br>清空</label>
+                <label class="clea iconfont icon-tuxiangchulileiiconshuchu04"><br>裁剪</label>
+                <label class="wenzi iconfont icon-text"><br>文字</label>
+                <label class="rubber iconfont icon-xiangpica_icon"><br>橡皮</label>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <div class="tools">
+                    <div class="tools-box">
+                        Tools
+                    </div>
+                    <label class="pencial iconfont icon-bianji01"></label>
+                    <label class="zhiLine iconfont icon-xian"></label>
+                    <label class="xuLine iconfont icon-xuxian"></label>
+                    <label class="juXing iconfont icon-juxing"></label>
+                    <label class="circle iconfont icon-yuan"></label>
+                    <label class="cirJu iconfont icon-yuanjiaojuxingxuanzekuang"></label>
+                    <label class="duojiao iconfont icon-wujiaokongxin"></label>
+                    <label class="duoBian iconfont icon-duobianxing"></label>
+                    <input type="text" class="binput" placeholder="3">
+                </div>
+                <div class="yangSi">
+                    <div class="yangSi-son">
+                        Style
+                    </div>
+                        <label class="tain iconfont icon-huanyanse"></label>
+                    <input class="tianColor" type="color">
+                    <label class="miao iconfont icon-miaobian"></label>
+                    <input class="miaoColor" type="color">
+                </div>
+                <hr>
+            </div>
+
+            <div class="hua">
+                <canvas width="1098" height="500"></canvas>
+
+            </div>
+            <div class="eraser"></div>
+        </div>
+    </div>
+    <div class="caiBox"></div>
+</body>
+</html>

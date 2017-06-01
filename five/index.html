@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/five.js"></script>
+</head>
+<style>
+    canvas{
+        border:2px solid #000;
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin:auto;
+    }
+    .son{
+        width: 800px;
+        height: 800px;
+        position: absolute;
+        background: #fff;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin:auto;
+        box-shadow: 0 0 0 900px rgba(0,0,0,0.8);
+        z-index: 1000;
+        transform:scale(0,0);
+        /*transition: ;*/
+    }
+    .zhe{
+        width: 800px;
+        height: 800px;
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin:auto;
+        display: none;
+    }
+    .ale{
+        width: 400px;
+        height: 200px;
+        background: #fff;box-shadow: 0 0 2px 2px #CCCCCC;
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin:auto;
+        padding-top:20px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 40px;
+        /*display: none;*/
+    }
+    .re{
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        bottom:20px;
+        left:40px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        background: lightskyblue;
+    }
+    .cu{
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        bottom:20px;
+        right:40px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        background: lightskyblue;
+    }
+</style>
+<body>
+    <button class="bt">查看棋谱</button>
+    <canvas width="800" height="800"></canvas>
+    <div class="zhe">
+        <div class="ale">
+            <p></p>
+            <button class="re">重新开始</button>
+            <button class="cu">退出</button>
+        </div>
+    </div>
+
+    <div class="son">
+
+    </div>
+</body>
+</html>

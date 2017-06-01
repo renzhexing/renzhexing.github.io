@@ -1,0 +1,578 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: rgba(0, 0, 0, .8);
+}
+.navbox{
+	width: 1000px;
+	height: 100%;
+	background: #323232;
+	margin: 0px auto;
+	text-align: justify;
+	
+}
+.navbox .content li{
+	display: inline-block;
+	line-height: 44px;
+}
+.navbox .content li:hover a{
+	color: #969696;
+
+}
+.navbox .content{
+	text-align: justify;
+}
+.navbox .content:after{
+	content: "";
+	display: inline-block;
+	width: 100%
+}
+.navbox ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+.navbox .con{
+	width: 100%;
+	height: 44px;
+	display: none;
+}
+.navbox .con li{
+	width: 33.33%;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	float: left;
+
+}
+.navbox .con li:uth-child(1){
+	text-align: left;
+}
+.navbox .con li:uth-child(3){
+	text-align: right;
+}
+
+
+.banner{
+	width: 100%;
+	height: 600px;
+	background: #F2F2F2;
+	background-size: auto 600px;
+}
+.banner img{
+	display: block;
+	height: 600px;
+	background-repeat: no-repeat;
+	margin: 0px auto;
+}
+.appbox{
+	width: 100%;
+	height: auto;
+	background: blue;
+	overflow: hidden;
+}
+.appbox li{
+	width: 25%;
+	height: 200px;
+	background: red;
+	float: left;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+}
+.appbox li:nth-child(1){
+	background-image: url('../img/wwdc17_small.jpg');
+	background-size: auto 200px;
+	background-position: 50% 0px;
+	background-repeat: no-repeat;
+}
+.appbox li:nth-child(2){
+	background-image: url('../img/supplier_responsibility_small.jpg');
+	background-size: auto 200px;
+	background-position: 50% 0px;
+	background-repeat: no-repeat;
+}
+.appbox li:nth-child(3){
+	background-image: url('../img/macbook_pro_small.jpg');
+	background-size: auto 200px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.appbox li:nth-child(4){
+	background-image: url('../img/accessories_small.jpg');
+	background-size: auto 200px;
+	background-position: 50% 0px;
+	background-repeat: no-repeat;
+}
+.appbox li:nth-child(1),li:nth-child(2),li:nth-child(3){
+	border-right: 0px;
+}
+
+footer{
+	width: 100%;
+	height: 421px;
+	background: #f2f2f2;
+}
+.diyi{
+	width: 980px;
+	height: 50px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #D6D6D6;
+	margin: 0 auto;
+	line-height: 50px;
+	color: #888888;
+	font-size: 11px;
+    font-weight: 400;
+    letter-spacing: .005em;
+}
+.xuan{
+	width: 980px;
+	height: 245px;
+	margin: 0px auto;
+}
+.xuan li{
+	height: 18px;
+}
+.xuan li:hover a{
+	text-decoration: underline;
+}
+.xuan h3{
+	padding-top: 20px;
+}
+.xuan-son1{
+	width: 196px;
+	height: 204px;
+	float: left;
+	box-sizing: border-box;
+}
+.xuan-son2{
+	width: 196px;
+	height: 225px;
+	float: left;
+}
+
+.xuan-son3{
+	width: 196px;
+	height: 138px;
+	float: left;
+}
+.xuan-son3 li{
+	height: 16px;
+}
+.xuan-son4{
+	width: 196px;
+	height: 201px;
+	float: left;
+}
+.xuan-son5{
+	width: 196px;
+	height: 120px;
+	float: left;
+}
+.xuan-son5 li{
+	height: 16px;
+}
+.xuan h3{
+	font-size: 11px;
+	color: #333333;
+}
+.xuan a{
+	font-size: 11px;
+	color: #595555;
+}
+.about{
+	width: 980px;
+	height: 109px;
+	margin: 0px auto;
+}
+.about-son1{
+	width: 980px;
+	height: 53px;
+	border-bottom: 1px solid #D6D6D6;
+	font-size: 11px;
+	color: #888888;
+}
+.about-son1 span{
+	display: inline-block;
+	margin-top: 28px;
+}
+.about-son2top{
+	width: 980px;
+	height: 23px;
+}
+.about-son2topleft{
+	width: 252px;
+	height: 23px;
+	line-height: 23px;
+	float: left;
+}
+.about-son2topleft span{
+	font-size: 11px;
+	color: #888888;
+}
+.about-son2topright{
+	width: 600px;
+	height: 23px;
+	float: left;
+}
+.about-son2topright ul li{
+	float: left;
+	height: 23px;
+}
+.about-son2topright ul li a{
+	color: #555555;
+	font-size: 11px;
+}
+.about-son2topright ul li span{
+	display: block;
+	float: left;
+	width: 1px;
+	height: 11px;
+	background: #D6D6D6;
+	margin-left: 13px;
+	margin-right: 13px;
+	margin-top: 7px;
+}
+.about-son2topright ul li .diyige{
+	width: 0px;
+}
+.about-son2topright ul li:hover a{
+	text-decoration: underline;
+}
+.about-son2topright1{
+	width: 47px;
+	height: 23px;
+	float: right;
+}
+.about-son2topright1 .tupian{
+	margin-top: 3px;
+	margin-right: 2px;
+}
+.about-son2topright1 a{
+	font-size: 11px;
+	color: #555555;
+	line-height: 23px;
+}
+.about-son2topright1 a:hover{
+	text-decoration: underline;
+}
+.about-son2down{
+	width: 980px;
+	height: 32px;
+	font-size: 12px;
+	color: #888888;
+	line-height: 32px;
+}
+.about-son2down a{
+	color: #888888;
+}
+.about-son2down a:hover{
+	text-decoration: underline;
+}
+.xuan1{
+	display: none;
+}
+.about1{
+		display: none;
+	}
+
+
+
+@media screen and (max-width: 1050px){
+	.navbox{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0px 15px;
+	}
+
+
+	.appbox li{
+		width: 50%;
+		background: green;
+	}
+	.banner{
+	width: 100%;
+	height: 540px;
+	background: #F2F2F2;
+	}
+	.banner img{
+	display: block;
+	height: 540px;
+	background-repeat: no-repeat;
+	margin: 0px auto;
+}
+	.appbox li:nth-child(1),li:nth-child(2),li:nth-child(3){
+	border-bottom: 0px;
+	}
+	.appbox li:nth-child(1){
+	background-image: url('../img/wwdc17_medium.jpg');
+	background-size: auto 200px;
+	background-position: 50% 0px;
+	}
+	.appbox li:nth-child(2){
+	background-image: url('../img/supplier_responsibility_medium.jpg');
+	background-size: auto 200px;
+	background-position: 50% 0px;
+	}
+	.appbox li:nth-child(3){
+	background-image: url('../img/macbook_pro_medium.jpg');
+	background-size: auto 200px;
+	background-position: 50% 0px;
+	}
+	.appbox li:nth-child(4){
+	background-image: url('../img/accessories_medium.jpg');
+	background-size: auto 200px;
+	background-position: 50% 0px;
+	}
+	.footer{
+		width:100%;	
+		height: auto;
+	}
+	.diyi{
+		width: 95%;
+		margin: 0px auto;
+		height: auto;
+	}
+	.xuan{
+		width: 95%;
+		margin: 0px auto;
+	}
+	.xuan-son1{
+		width: 20%;
+	}
+	.xuan-son2{
+		width: 20%;
+	}
+	.xuan-son3{
+		width: 20%;
+	}
+	.xuan-son4{
+		width: 20%;
+	}
+	.xuan-son5{
+		width: 20%;
+	}
+	.about{
+		width: 95%;
+		margin: 0px auto;
+	}
+	.about-son1{
+		width: 100%
+	}
+	.about-son2{
+		width: 100%;
+		height: auto;
+	}
+	.about-son2top{
+		width: 100%;
+	}
+	.about-son2topleft{
+		width: 26%;
+		height: auto;
+	}
+	.about-son2topright{
+		width: 62%;
+	}
+	.about-son2topright1{
+		width: 10%;
+	}
+	.about-son2topright1 a{
+		display: block;
+		float: right;
+	}
+	.about-son2down{
+		width: 100%;
+	}
+	.about1{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.navbox{
+		width: 100%;
+	}
+	.navbox .con{
+	width: 100%;
+	height: 44px;
+	display: block;
+	}
+	.navbox .con li:nth-child(1){
+		text-align: left;
+	}
+	.navbox .con li:nth-child(3){
+		text-align: right;
+	}
+	.navbox .content{
+	display: none;
+	}
+
+	.appbox li{
+		width: 100%;
+		background: blue;
+	}
+	.banner{
+	width: 100%;
+	height: 450px;
+	background: #F2F2F2;
+	}
+	.banner img{
+	display: block;
+	height: 450px;
+	background-repeat: no-repeat;
+	margin: 0px auto;
+}
+	.appbox li:nth-child(1),li:nth-child(2),li:nth-child(3){
+	border-bottom: 0px;
+	}	
+	.appbox li:nth-child(1){
+	background-image: url('../img/wwdc17_small.jpg');
+	background-size: auto 200px;
+	background-position: 50% 0px;
+	}
+	.appbox li:nth-child(2){
+	background-image: url('../img/supplier_responsibility_small.jpg');
+	background-size: auto 200px;
+	background-position: 50% 0px;
+	}
+	.appbox li:nth-child(3){
+	background-image: url('../img/macbook_pro_small.jpg');
+	background-size: auto 200px;
+	background-position: 50% 0px;
+	}
+	.appbox li:nth-child(4){
+	background-image: url('../img/accessories_small.jpg');
+	background-size: auto 200px;
+	background-position: 50% 0px;
+	}
+
+
+	footer{
+		width: 100%;
+		height: auto;
+		margin: 0px auto;
+	}
+
+	.diyi{
+		width: 95%;
+		margin: 0px auto;
+		height: auto;
+	}
+	.xuan{
+		display: none;
+	}
+	.xuan1{
+		width: 95%;
+		/* height: 300px; */
+		margin: 0px auto;
+		display: block;
+		margin: 0px auto;
+		height: auto;
+	}
+	.xuan1-son1{
+		width: 100%;
+		/* height: 37px; */
+		font-size: 11px;
+		line-height: 38px;
+		border-bottom: 1px solid #D6D6D6;
+		height: auto;
+	}
+	.xuan1-son1 a{
+		color: #333333;
+	}
+	.about{
+		display: none;
+	}
+	.about1{
+		display: block;
+	}
+	.about1{
+		width:95%;
+		height: auto;
+        margin: 0px auto; 
+	}
+	.about1-son1{
+		width: 100%;
+		padding-top: 10px;
+	}
+	.about1-son1 a:hover{
+		text-decoration: underline;
+	}
+	.about1-son1 span{
+		font-size: 11px;
+		color: #888888;
+		line-height: 38px;
+	}
+
+	.about1-son2{
+		width: 100%;
+		font-size: 11px;
+		color: #888888;
+		line-height: 22px;
+	}
+	.about1-son2 a{
+		color: #555555;
+	}
+	.about1-son2 a:hover{
+		text-decoration: underline;
+	}
+	.about1-son3 span{
+		font-size: 11px;
+		color: #888888;
+		line-height: 17px;
+	}
+	.about1-son4 ul{
+		width: 100%;
+		height: 20px;
+		z-index: 999999;
+	}
+	.about1-son4 ul li{
+		float: left;
+		line-height: 20px;
+		font-size: 11px;
+	}
+	.about1-son4 ul li span{
+		display: block;
+		width: 1px;
+		height: 11px;
+		float: left;
+		background: #D6D6D6;
+		margin-top: 5px;
+		margin-left: 13px;
+		margin-right: 13px;
+	}
+	.about1-son4 ul li a{
+		color: #555555;
+	}
+	.about1-son4 ul li a:hover{
+		text-decoration: underline;
+	}
+	/* .about1-son4 ul:after{
+		content: "";
+		display: inline-block;
+		width: 100%;
+		height: 0px;
+	} */
+	.about1-son5{
+		font-size: 11px;
+		color: #A19999;
+		line-height: 17px;
+		padding-bottom: 5px;
+	}
+	.about1-son5 a{
+		color: #999999;
+	}
+	.about1-son5 a:hover{
+		text-decoration: underline;
+	}
+}
